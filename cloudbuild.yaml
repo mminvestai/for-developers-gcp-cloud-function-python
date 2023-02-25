@@ -6,7 +6,7 @@ steps:
       - deploy
       - hello_world
       - --region=europe-west3
-      - --source=.
+      - --source=./ingest/
       - --trigger-http
       - --runtime=python39
       - --memory=128MB
